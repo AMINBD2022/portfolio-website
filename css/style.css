@@ -205,19 +205,58 @@ header .logo{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ------------------------------- User Feed Back section End -----------------------------------*/
+
+
+/* --------------------- Form section statr ------------------------------------- */
+
+
+
+.form-section{
+    padding: 71px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-section .text-are{
+    max-width: 528px;
+}
+.form-section .text-are h2{
+    font-size: 97px;
+    font-weight: bold;
+}
+
+
+form{
+    width: 497px;
+}
+
+form label{
+    font-size: 18px;
+    font-weight: 500;
+    color:#000000;
+}
+
+form input , form textarea{
+    width: 94%;
+    height: 40px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    margin-bottom: 20px;
+}
+
+
+form textarea{
+    height: 100px;
+}
+
+
+input[type=submit]{
+    padding:20px 100px ;
+    padding-bottom: 20px;
+    margin:0;
+    width: 100%;
+    height: auto;
+
+}  
