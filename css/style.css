@@ -260,3 +260,38 @@ input[type=submit]{
     height: auto;
 
 }  
+
+
+/* -------------------Footer section ---------------------------- */
+
+
+footer .footer-section{
+    padding:100px 80px;
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
+}
+footer .footer-section h2{
+    font-size: 80px;
+    font-weight: bolder;
+    color:#4E47FF;
+}
+footer p{
+    color: #8987A1;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer .footer-menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer-menu li a{
+    text-decoration: none;
+    color:#8987A1;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
