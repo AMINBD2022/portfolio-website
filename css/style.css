@@ -35,6 +35,13 @@
 }
 
 
+.btn_global:hover {
+    background-color: #ffffff;
+    color: #4E47FF; 
+    box-shadow: 0 0 15px rgba(78, 71, 255, 0.4);
+}
+
+
 
 
 
