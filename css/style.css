@@ -1,6 +1,7 @@
 *{
     padding:0;
     margin:0;
+    box-sizing: border-box;
 }
 
 /* ----------------- Shared Css--------------- */
@@ -211,6 +212,60 @@ header .logo{
 
 
 /* ------------------------------- User Feed Back section End -----------------------------------*/
+
+/* --------------------CTA-section --------------------------- */
+
+.CTA-section{
+    margin: auto;
+    text-align: center;
+    padding: 71px 150px;
+    background-color: #ffffff;
+    border-radius: 14px;
+}
+
+.CTA-section .section-title , .CTA-section .section-description {
+    margin-bottom: 20px;
+}
+.CTA-section .section-title{
+    font-size: 50px;
+    font-weight: 700;
+    color:#000000;
+}
+.CTA-section .section-description{
+    font-size: 16px;
+    font-weight:400;
+    color:rgba( 0, 0, 0, 0.5);
+}
+.CTA-section button{
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.CTA-section img{
+    border-radius: 48px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* --------------------- Form section statr ------------------------------------- */
